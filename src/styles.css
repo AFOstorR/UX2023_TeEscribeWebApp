@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+.mainTopRectangle {
+  height: 93px;
+  background-color: #B4BDED;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainText {
+    color: rgba(255,255,255,1);
+    font-family: Montserrat;
+    font-weight: Bold;
+    font-size: 50px;
+    opacity: 1;
+    text-align: center;
+}
+
+.mainRectangle {
+  height: 450px;
+  background: #9ACCE8;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.mainRectangle2 {
+  height: 371px;
+  background: #9ABFEB;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px 50px 50px 50px;
+  align-items: center;
+}
+
+.bigLogo {
+  width: 260px;
+  height: 240px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+
+.triangle {
+  width: 0px;
+  height: 0px;
+  border-bottom: 240px solid #C6C9A4;
+  border-left: 130px solid transparent;
+  border-right: 130px solid transparent;
+  position: absolute;
+  /* top: 20%;
+  left: 35%; */
+}
+
+.inverseTriangle {
+  width: 0px;
+  height: 0px;
+  border-top: 50px solid #9ABFEB;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.logoRectangle {
+  border: 1px solid black;
+  width: 15px;
+  height: 90px;
+  position: relative;
+  top: 30%;
+  left: 47%;
+}
+
+.logoAt::before {
+  content: "@";
+  text-align: center;
+  font-size: 20px;
+  font-family: Montserrat;
+  color: black;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
