@@ -48,8 +48,23 @@
 }
 
 
+.menuHomeText {
+  font-family: Montserrat;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+
 .mainRectangle {
   height: 450px;
+  background: #9ACCE8;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.mainRectangle2 {
   background: #9ACCE8;
   position: relative;
   top: 0px;
@@ -60,8 +75,6 @@
 .secondaryCreateRectangle {
   background: #60AFDB;
   position: relative;
-  top: 0px;
-  left: 0px;
   border-radius: 50px 50px 50px 50px;
 }
 
@@ -123,6 +136,12 @@
 
 .formText{
   font-family: Montserrat;
-  font-size: 20 px;
+  font-size: 20px;
   text-align: right;
+}
+
+.typeAlarmText {
+  font-family: Montserrat;
+  font-size: 25px;
+  text-align: center;
 }

@@ -13,4 +13,16 @@ export class AlarmListComponent implements OnInit {
   ngOnInit() {
   }
 
+  goLogin(): void {
+    this.router.navigate(['/login']);
+  }
+
+  goHome(): void {
+    this.router.navigate(['/home'])
+  }
+
+  goEdit(): void {
+    this.router.navigate(['alarm/edit'])
+  }
+
 }

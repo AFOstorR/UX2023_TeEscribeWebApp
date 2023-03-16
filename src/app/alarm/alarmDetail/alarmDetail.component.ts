@@ -17,4 +17,8 @@ export class AlarmDetailComponent implements OnInit {
     this.router.navigate(['/login'])
   }
 
+  goHome(): void {
+    this.router.navigate(['/home'])
+  }
+
 }

@@ -18,16 +18,180 @@
 
 <div class="row justify-content-center">
   <div class="col-lg-10">
-    <div class="mainRectangle">
-      <div class="row">
-        <div class="col-lg-1"></div>
-        <div class="col-lg-10">
-          <div class="secondaryCreateRectangle">
-            <p>hola</p>
+    <div class="row mainRectangle">
+      <div class="col lg-12">
+        <div class="row secondaryCreateRectangle">
+          <div class="col-lg-5">
+            <div class="row">
+              <p class="menuHomeText">Plataformas</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <p class="menuHomeText">Cuenta a Seguir</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-1"></div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row my-3">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-2">
+                <div class="row">
+                  <p class="formText">Plataforma</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Seleccione una</option>
+                  <option value="1">Slack</option>
+                  <option value="2">Teams</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row my-3">
+              <div class="col-lg-2">
+                <div class="row">
+                  <p class="formText">Cuenta</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <input #usuario type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="row my-2">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-2">
+                <div class="row">
+                  <p class="formText">Plataforma</p>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Seleccione una</option>
+                  <option value="1">Slack</option>
+                  <option value="2">Teams</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row my-2">
+              <div class="col-lg-2">
+                <div class="row">
+                  <p class="formText">Cuenta</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <input #usuario type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-2"></div>
+          <div class="col-lg-1">
+            <div class="row">
+              <button type="button" class="btn btn-outline-primary">+ Más</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-lg-6">
+            <div class="row">
+              <span class="typeAlarmText">Tipo Alerta</span>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="row">
+                  <p class="typeAlarmText">Nombre Alerta</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <input #usuario type="text" class="form-control">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2">
+            <div class="row">
+              <p class="formText">Notificación</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="row">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-1">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2">
+            <div class="row">
+              <p class="formText">Sonido</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="row">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row my-1">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2">
+            <div class="row">
+              <p class="formText">Tipo Sonido</p>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="row">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Seleccione</option>
+                <option value="1">Zumbido</option>
+                <option value="2">Sirena</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
       </div>
+    </div>
+  </div>
+</div>
+<div class="row my-4">
+  <div class="col-lg-2"></div>
+  <div class="col-lg-2">
+    <div class="row">
+      <button type="button" class="btn btn-outline-primary" (click)="goHome()">Volver</button>
+    </div>
+  </div>
+  <div class="col-lg-4"></div>
+  <div class="col-lg-2">
+    <div class="row">
+      <button type="button" class="btn btn-outline-secondary" (click)="goHome()">Aceptar</button>
     </div>
   </div>
 </div>
