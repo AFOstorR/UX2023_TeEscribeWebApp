@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { UserComponent } from './user.component';
 import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
+import { RouterModule } from '@angular/router';
+import { AppHeaderModule } from '../app-header/app-header.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
+    AppHeaderModule
   ],
-  declarations: [UserComponent, LoginComponent],
-  exports: [LoginComponent]
+  declarations: [LoginComponent, SignupComponent],
+  exports: [LoginComponent, SignupComponent]
 
 })
 export class UserModule { }

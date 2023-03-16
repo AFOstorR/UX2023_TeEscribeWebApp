@@ -8,6 +8,27 @@
   align-items: center;
 }
 
+.mainCreateTopRectangle {
+  background-color: #B4BDED;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeRectangle {
+  height: 80px;
+  background-color: #3B4B9F;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButton {
+  background-color: #3B4B9F !important;
+}
+
 .mainText {
     color: rgba(255,255,255,1);
     font-family: Montserrat;
@@ -17,9 +38,27 @@
     text-align: center;
 }
 
+.mainCreateText {
+  color: rgba(255,255,255,1);
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+
+
 .mainRectangle {
   height: 450px;
   background: #9ACCE8;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.secondaryCreateRectangle {
+  background: #60AFDB;
   position: relative;
   top: 0px;
   left: 0px;
@@ -39,9 +78,9 @@
 .bigLogo {
   width: 260px;
   height: 240px;
-  position: absolute;
+  position: relative;
   top: 20%;
-  left: 35%;
+  left: 20%;
 }
 
 .triangle {
@@ -51,8 +90,6 @@
   border-left: 130px solid transparent;
   border-right: 130px solid transparent;
   position: absolute;
-  /* top: 20%;
-  left: 35%; */
 }
 
 .inverseTriangle {
@@ -82,4 +119,10 @@
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.formText{
+  font-family: Montserrat;
+  font-size: 20 px;
+  text-align: right;
 }

@@ -1,20 +1,58 @@
+<app-header></app-header>
 <div class="row justify-content-center">
   <div class="col-lg-8 px-0 my-4">
     <div class="mainRectangle">
       <div class="row justify-content-center">
         <div class="col-lg-10 px-0 my-3">
           <div class="mainRectangle2">
-               <div class="bigLogo">
-                <div class="triangle"></div>
-                <div class="logoRectangle"></div>
-                <div class="logoAt"></div>
-               </div>
+            <div class="row">
+              <div class="col-lg-2"></div>
+              <div class="col-lg-4">
+                <div class="bigLogo">
+                  <div class="triangle"></div>
+                  <div class="logoRectangle"></div>
+                  <div class="logoAt"></div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="row my-5"></div>
+                <div class="mb-3 row">
+                  <label class="col-lg-3 col-form-label formText">Nombre</label>
+                  <div class="col-lg-8  ">
+                    <input #usuario type="text" class="form-control" id="usuario">
+                  </div>
+                </div>
+                <div class="mb-3 row">
+                  <label class="col-lg-3 col-form-label formText">Contraseña</label>
+                  <div class="col-lg-8  ">
+                    <input #usuario type="text" class="form-control" id="contrasena">
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="row">
             <div class="col-lg-1"></div>
             <div class="col-lg-1">
-            <div class="inverseTriangle"></div></div>
+              <div class="inverseTriangle"></div>
+            </div>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8"></div>
+      <div class="col-lg-3">
+        <div class="row">
+          <button type="button" class="btn btn-outline-secondary" (click)="goHome()">Iniciar Sesión</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8"></div>
+      <div class="col-lg-3">
+        <div class="row">
+          <button type="button" class="btn btn-outline-primary" (click)="goRegister()">Crear Cuenta</button>
         </div>
       </div>
     </div>
